@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Adoption Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body>
+    <div class="page-section">
+      <div class="page-section-inner">
+        <a class="small-link" href="/">&laquo; Back to homepage</a>
+        <h2 class="page-section-title mb-big">Manage Pets</h2>
+
+        <a class="add-pet-btn" href="/admin/add-pet"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-plus-circle-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+            />
+          </svg>
+          Add New Pet</a
+        >
+
+        <div id="render-here">
+          <div class="list-of-pets still-loading">
+            <div class="pet-card">
+              <div class="pet-card-text">
+                <h3>-</h3>
+                <p class="pet-description">-</p>
+                <p class="pet-age">-</p>
+              </div>
+              <div class="pet-card-photo">
+                <img src="/images/fallback.jpg" />
+              </div>
+            </div>
+            <!-- end of pet card -->
+            <div class="pet-card">
+              <div class="pet-card-text">
+                <h3>-</h3>
+                <p class="pet-description">-</p>
+                <p class="pet-age">-</p>
+              </div>
+              <div class="pet-card-photo">
+                <img src="/images/fallback.jpg" />
+              </div>
+            </div>
+            <!-- end of pet card -->
+            <div class="pet-card">
+              <div class="pet-card-text">
+                <h3>-</h3>
+                <p class="pet-description">-</p>
+                <p class="pet-age">-</p>
+              </div>
+              <div class="pet-card-photo">
+                <img src="/images/fallback.jpg" />
+              </div>
+            </div>
+            <!-- end of pet card -->
+            <div class="pet-card">
+              <div class="pet-card-text">
+                <h3>-</h3>
+                <p class="pet-description">-</p>
+                <p class="pet-age">-</p>
+              </div>
+              <div class="pet-card-photo">
+                <img src="/images/fallback.jpg" />
+              </div>
+            </div>
+            <!-- end of pet card -->
+            <div class="pet-card">
+              <div class="pet-card-text">
+                <h3>-</h3>
+                <p class="pet-description">-</p>
+                <p class="pet-age">-</p>
+              </div>
+              <div class="pet-card-photo">
+                <img src="/images/fallback.jpg" />
+              </div>
+            </div>
+            <!-- end of pet card -->
+            <div class="pet-card">
+              <div class="pet-card-text">
+                <h3>-</h3>
+                <p class="pet-description">-</p>
+                <p class="pet-age">-</p>
+              </div>
+              <div class="pet-card-photo">
+                <img src="/images/fallback.jpg" />
+              </div>
+            </div>
+            <!-- end of pet card -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <p class="logout-text"><button id="logout">Logout</button></p>
+      <p>&copy; 2023 Fake Adoption Center. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/logout.js"></script>
+    <script src="/js/admin.js"></script>
+  </body>
+</html>
