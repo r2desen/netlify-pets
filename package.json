@@ -1,7 +1,18 @@
 {
+  "name": "netlify-pets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "cookies": "^0.9.1",
+    "cookie": "^0.6.0",
     "escape-html": "^1.0.3",
+    "mongodb": "^6.4.0",
     "sanitize-html": "^2.12.1"
   }
 }
